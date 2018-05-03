@@ -244,4 +244,9 @@
 	</style>
 	<style name="NextcloudTextAppearanceMedium" parent="@style/TextAppearance.AppCompat.Medium">
 	</style>
+
+	<style name="EditText" parent="Theme.AppCompat.Light">
+		<item name="colorControlActivated">@color/login_text_color</item>
+		<item name="android:textColorHint">@color/login_text_color</item>
+	</style>
 </resources>
